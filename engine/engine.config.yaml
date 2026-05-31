@@ -5,8 +5,8 @@
 # Empty = auto-detect by walking up from engine dir looking for .aios-core/
 # Set to absolute path to point engine at a specific project.
 project:
-  root: ""                       # auto-detect if empty
-  aios_core: ".aios-core"       # relative to root
+  root: "C:/Users/cprad/AIOX/projects/mar-de-copa-growth"  # active project
+  aios_core: ".aiox-core"       # aiox-core v5 uses .aiox-core (not .aios-core)
   squads: "squads"              # relative to root
   rules: ".claude/rules"        # relative to root
 
